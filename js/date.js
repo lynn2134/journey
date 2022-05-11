@@ -1,5 +1,5 @@
-const date = document.querySelector("h2#date");
-const days = document.querySelector("h2#days");
+const date = document.querySelector("div#date");
+const days = document.querySelector("div#days");
 
 function getDate(){
   const weeks = ["일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"];
