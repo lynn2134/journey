@@ -1,0 +1,55 @@
+*{padding:0;margin:0}
+
+h1 {
+    border-bottom: 1px solid gray;
+    padding: 30px;
+    grid-column: 1 /4;
+    text-align: center;
+    margin:0;
+}
+
+#jjiv, #jjido, #us{
+    text-decoration: none;
+    font-size: 14x;
+}
+
+li{list-style: none;}
+
+.menubar {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menubar  li {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: #5778ff;
+  }
+  
+  .menubar #jjiv, #jjido, #us {
+    color: #fff;
+  }
+  
+  .submenu  li {
+    float:none;
+    line-height: 50px;
+    background-color: #94a9ff;
+  }
+  
+  .submenu {
+    height: 0; /*ul의 높이를 안보이게 처리*/
+    overflow: hidden;
+  }
+  .menubar  li:hover {
+    background-color: #94a9ff;
+    transition-duration: 0.5s;
+  }
+  
+  .menubar li:hover .submenu {
+    height: 100px; /*서브메뉴 li한개의 높이 50*2*/
+    transition-duration: 1s;
+  }
